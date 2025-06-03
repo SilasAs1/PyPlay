@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #111;
+  background: #C8C8C8;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -13,7 +13,7 @@ body {
 .star {
   position: absolute;
   top: -20px;
-  color: #fff;
+  color: #326C9C;
   animation: animate 5s linear forwards;
   /* you can set infinite too */
 }
@@ -21,7 +21,7 @@ body {
 .star::before {
   content: "\f005";
   font-family: FontAwesome;
-  text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 50px #fff;
+  text-shadow: 0 0 5px #C8C8C8, 0 0 20px #C8C8C8, 0 0 50px #C8C8C8;
 }
 
 @keyframes animate {
